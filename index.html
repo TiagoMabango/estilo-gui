@@ -122,7 +122,7 @@
     </section>
 
    <!-- Care Instructions -->
-   <section class="py-5">
+   <section class="py-5" id="cuidadoPerucas">
     <div class="container">
         <h2 class="text-center text-brown mb-5">Cuidados com sua Peruca</h2>
         <div class="row g-4">
@@ -149,7 +149,7 @@
 </section>
 
 <!-- Testimonials Section -->
-<section class="py-5 bg-light">
+<section class="py-5 bg-light" id="Clientes">
     <div class="container">
         <h2 class="text-center text-brown mb-5">O que Nossos Clientes Dizem</h2>
         <div class="row g-4">
@@ -211,21 +211,92 @@
 </a>
 
 <!-- Footer -->
-<footer class="bg-brown text-white py-4">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h5>Estiloqui Perucas</h5>
-                <p>Estilo que acompanha você</p>
-            </div>
-            <div class="col-md-6 text-md-end">
-                <p>Contato: (+244) 957 248 136</p>
-                <div class="social-links">
-                    <a href="https://www.facebook.com/profile.php?id=100067676614893" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/estiloguiperucas?igsh=MTB3OHRkeGp5ZDF6YQ==" class="text-white"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.tiktok.com/@estiloguilerucas?_t=ZM-8tCjq3stYiE&_r=1" class="text-white"><i class="fab fa-tiktok"></i></a>
+<footer class="bg-gradient-to-r from-purple-900 to-purple-700 text-white py-8">
+    <div class="container mx-auto px-4">
+        <!-- Seção Principal -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-6">
+            <!-- Coluna 1: Sobre -->
+            <div>
+                <h5 class="text-xl font-bold mb-4">Estiloqui Perucas</h5>
+                <p class="mb-4">Estilo que acompanha você em todos os momentos, realçando sua beleza natural com qualidade e confiança.</p>
+                <div class="flex space-x-4 mt-4">
+                    <a href="https://www.facebook.com/profile.php?id=100067676614893" class="hover:text-purple-200 transition-colors">
+                        <i class="fab fa-facebook-f text-xl"></i>
+                    </a>
+                    <a href="https://www.instagram.com/estiloguiperucas" class="hover:text-purple-200 transition-colors">
+                        <i class="fab fa-instagram text-xl"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@estiloguilerucas" class="hover:text-purple-200 transition-colors">
+                        <i class="fab fa-tiktok text-xl"></i>
+                    </a>
+                    <a href="https://wa.me/244957248136" class="hover:text-purple-200 transition-colors">
+                        <i class="fab fa-whatsapp text-xl"></i>
+                    </a>
                 </div>
             </div>
+            
+            <!-- Coluna 2: Links Rápidos -->
+            <div>
+                <h5 class="text-xl font-bold mb-4">Links Rápidos</h5>
+                <ul class="space-y-2">
+                    <li><a href="#products" class="hover:text-purple-200 transition-colors">Nossos Produtos</a></li>
+                    <li><a href="#cuidadoPerucas" class="hover:text-purple-200 transition-colors">Cuidados com Perucas</a></li>
+                    <li><a href="#Clientes" class="hover:text-purple-200 transition-colors">O que os nossos clientes dizem</a></li>
+                </ul>
+            </div>
+            
+            <!-- Coluna 3: Contato -->
+            <div>
+                <h5 class="text-xl font-bold mb-4">Contato</h5>
+                <ul class="space-y-2">
+                    <li class="flex items-center">
+                        <i class="fas fa-phone-alt mr-2"></i>
+                        <span>(+244) 957 248 136</span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-envelope mr-2"></i>
+                        <span>estiloguiperucas@gmail.com</span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-map-marker-alt mr-2"></i>
+                        <span>Luanda, Angola</span>
+                    </li>
+                </ul>
+                <div class="mt-4">
+                    <p class="text-sm font-medium mb-2">Horário de Atendimento:</p>
+                    <p class="text-sm">Segunda a Sábado: 9h às 18h</p>
+                </div>
+            </div>
+            
+            <!-- Coluna 4: Newsletter -->
+            <div>
+                <h5 class="text-xl font-bold mb-4">Newsletter</h5>
+                <p class="mb-4">Receba novidades, promoções e dicas exclusivas sobre cuidados com perucas.</p>
+                <div class="flex mt-2">
+                    <input type="email" placeholder="Seu e-mail" class="px-4 py-2 w-full rounded-l text-gray-800 focus:outline-none">
+                    <button class="bg-purple-500 hover:bg-purple-600 px-4 py-2 rounded-r transition-colors">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Métodos de Pagamento -->
+        <div class="border-t border-purple-600 pt-6 pb-4">
+            <div class="flex flex-wrap justify-center space-x-4">
+                <span class="text-sm font-medium">Métodos de Pagamento:</span>
+                <i class="fab fa-cc-visa text-2xl"></i>
+                <i class="fab fa-cc-mastercard text-2xl"></i>
+                <i class="fab fa-pix text-2xl"></i>
+                <i class="fas fa-money-bill-wave text-2xl"></i>
+                <i class="fas fa-credit-card text-2xl"></i>
+            </div>
+        </div>
+        
+        <!-- Copyright -->
+        <div class="text-center text-sm mt-6">
+            <p>&copy; 2025 Estiloqui Perucas. Todos os direitos reservados.</p>
+            <p class="mt-2">Desenvolvido com <i class="fas fa-heart text-red-500"></i> para valorizar sua beleza</p>
         </div>
     </div>
 </footer>
