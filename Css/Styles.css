@@ -363,3 +363,37 @@ footer {
       font-size: 1.25rem;
     }
   }
+
+  /* Benefits Section Styles */
+.benefits-section {
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.benefit-item {
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.benefit-item:hover {
+    transform: translateY(-5px);
+}
+
+.benefit-item i {
+    font-size: 2.5rem;
+    color: #8B4513;
+    margin-bottom: 15px;
+}
+
+.benefit-item h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.benefit-item p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+}
