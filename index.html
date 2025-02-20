@@ -20,16 +20,40 @@
     </div>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-brown">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-brown sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="image/JPG/Prancheta 9.jpg" alt="Estiloqui Perucas Logo">
                 EstiloGui Perucas
             </a>
-            <div class="ms-auto d-flex align-items-center">
-                <a href="https://www.facebook.com/profile.php?id=100067676614893" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/estiloguiperucas?igsh=MTB3OHRkeGp5ZDF6YQ==" class="text-white"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.tiktok.com/@estiloguilerucas?_t=ZM-8tCjq3stYiE&_r=1" class="text-white"><i class="fab fa-tiktok"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Perucas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#acessorio">Acessórios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cuidadoPerucas">Cuidados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Clientes">Depoimentos</a>
+                    </li>
+                </ul>
+                
+                <div class="social-icons d-flex align-items-center">
+                    <a href="https://www.facebook.com/profile.php?id=100067676614893" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/estiloguiperucas?igsh=MTB3OHRkeGp5ZDF6YQ==" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@estiloguilerucas?_t=ZM-8tCjq3stYiE&_r=1" class="text-white"><i class="fab fa-tiktok"></i></a>
+                </div>
             </div>
         </div>
     </nav>
@@ -167,7 +191,7 @@
     </section>
 
 
-    <section id="products" class="py-5 bg-light">
+    <section id="acessorio" class="py-5 bg-light">
         <div class="container">
             <h2 class="text-center text-brown mb-5">Acessórios</h2>
             <div class="product-slider">
@@ -389,7 +413,7 @@
                 </ul>
                 <div class="mt-4">
                     <p class="text-sm font-medium mb-2">Horário de Atendimento:</p>
-                    <p class="text-sm">Segunda a Sábado: 9h às 18h</p>
+                    <p class="text-sm">Segunda a sexta: 8h às 18h</p>
                 </div>
             </div>
             
@@ -410,9 +434,6 @@
         <div class="border-t border-purple-600 pt-6 pb-4">
             <div class="flex flex-wrap justify-center space-x-4">
                 <span class="text-sm font-medium">Métodos de Pagamento:</span>
-                <i class="fab fa-cc-visa text-2xl"></i>
-                <i class="fab fa-cc-mastercard text-2xl"></i>
-                <i class="fab fa-pix text-2xl"></i>
                 <i class="fas fa-money-bill-wave text-2xl"></i>
                 <i class="fas fa-credit-card text-2xl"></i>
             </div>
@@ -421,7 +442,7 @@
         <!-- Copyright -->
         <div class="text-center text-sm mt-6">
             <p>&copy; 2025 Estiloqui Perucas. Todos os direitos reservados.</p>
-            <p class="mt-2">Desenvolvido com <i class="fas fa-heart text-red-500"></i> para valorizar sua beleza</p>
+            <p class="mt-2">Desenvolvido com <i class="fas fa-heart text-white-500"></i> para valorizar sua beleza</p>
         </div>
     </div>
 </footer>
