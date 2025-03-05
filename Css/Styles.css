@@ -69,11 +69,11 @@
 
 /* Navbar Styling */
 .navbar-brand img {
-    height: 50px;
-    width: 50px; 
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 10px;
+  height: 50px;
+  width: 50px; 
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
 }
 
 /* Product Slider Customization */
@@ -396,4 +396,221 @@ footer {
     font-size: 0.9rem;
     color: #666;
     margin: 0;
+}
+
+/* section new */
+
+
+/* Cores e variáveis */
+:root {
+  --primary-color: #8B4513;
+  --secondary-color: #D2B48C;
+  --accent-color: #A0522D;
+  --light-color: #F5F5DC;
+  --dark-color: #4A3728;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+
+/* Navbar Styles */
+.bg-brown {
+  background-color: var(--primary-color);
+}
+
+.social-icons a:hover {
+  opacity: 0.8;
+}
+
+/* Hero Section */
+.text-brown {
+  color: var(--primary-color);
+}
+
+.btn-brown {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-brown:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+/* Benefits Section */
+.benefits-section {
+  background-color: var(--light-color);
+}
+
+.benefit-item {
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.benefit-item:hover {
+  transform: translateY(-5px);
+}
+
+.benefit-item i {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.benefit-item h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.benefit-item p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Product Cards */
+.product-card {
+  border: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Slick Slider Customization */
+.slick-prev, .slick-next {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+}
+
+.slick-prev:hover, .slick-next:hover {
+  background-color: var(--accent-color);
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 20px;
+}
+
+.slick-dots li button:before {
+  color: var(--primary-color);
+}
+
+.slick-dots li.slick-active button:before {
+  color: var(--accent-color);
+}
+
+/* WhatsApp Float Button */
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-float img {
+  width: 60px;
+  height: 60px;
+}
+
+/* Special Services Section */
+.special-services-section {
+  background-color: #f8f4e3;
+  padding: 60px 0;
+}
+
+.service-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.service-card .card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+}
+
+.service-card .card-text {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.contact-banner {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.contact-banner h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .benefit-item {
+      margin-bottom: 20px;
+  }
+  
+  .whatsapp-float {
+      width: 50px;
+      height: 50px;
+      right: 20px;
+      bottom: 20px;
+  }
+  
+  .whatsapp-float img {
+      width: 50px;
+      height: 50px;
+  }
 }
