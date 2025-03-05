@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planos de Assinatura - Estiloqui Perucas</title>
+    <link rel="shortcut icon" href="image/Perfil/Perfil.jpg" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="Css/Styles.css" rel="stylesheet">
+    
+    <style>
+        .hero-planos {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('image/POSTS/POst 08.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 80px 0;
+        }
+        
+        .pricing-header {
+            padding-bottom: 50px;
+        }
+        
+        .price-tag {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        
+        .feature-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .plan-card {
+            border-radius: 15px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .plan-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        
+        .plan-header {
+            padding: 30px 20px;
+            text-align: center;
+        }
+        
+        .bg-premium {
+            background: linear-gradient(45deg, var(--primary-color), var(--accent-color));
+        }
+        
+        .faq-section {
+            background-color: #f8f9fa;
+            padding: 60px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Address Bar -->
+    <div class="top-address-bar">
+        <div class="container-fluid text-center py-2">
+            <i class="fas fa-map-marker-alt me-2"></i> VISITE NOSSA LOJA FÍSICA: AV. COMANDANTE VALÓDIA, 206 - LUANDA
+        </div>
+    </div>
+
+    <!-- Navbar - Mesmo código do site principal -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-brown sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/JPG/Prancheta 9.jpg" alt="Estiloqui Perucas Logo">
+                EstiloGui Perucas
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#products">Perucas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#acessorio">Acessórios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#cuidadoPerucas">Cuidados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#Clientes">Depoimentos</a>
+                    </li>
+                    <li class="nav-item"></li>
+                        <a class="nav-link" href="#Servicos">Serviços</a>
+                    </li>
+                </ul>
+                
+                <div class="social-icons d-flex align-items-center">
+                    <a href="https://www.facebook.com/profile.php?id=100067676614893" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/estiloguiperucas?igsh=MTB3OHRkeGp5ZDF6YQ==" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@estiloguilerucas?_t=ZM-8tCjq3stYiE&_r=1" class="text-white"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section for Plans Page -->
+    <section class="hero-planos">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-4">Planos de Assinatura Mensal</h1>
+            <p class="lead mb-5">Cuidados contínuos para manter sua peruca sempre impecável</p>
+            <a href="#planos" class="btn btn-light btn-lg px-4 me-md-2">Ver Planos</a>
+            <a href="https://wa.me/244957248136?text=Olá,%20gostaria%20de%20informações%20sobre%20os%20planos%20de%20assinatura." class="btn btn-outline-light btn-lg px-4">
+                <i class="fab fa-whatsapp me-2"></i>Falar com Consultor
+            </a>
+        </div>
+    </section>
+
+    <!-- Pricing Plans Section -->
+    <section id="planos" class="py-5">
+        <div class="container">
+            <div class="pricing-header text-center">
+                <h2 class="display-5 fw-bold text-brown">Escolha o Plano Ideal para Você</h2>
+                <p class="lead text-muted">Nossas opções de assinatura para cuidados contínuos com sua peruca</p>
+            </div>
+
+            <div class="row g-5 justify-content-center">
+                <!-- Plano Básico -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card plan-card h-100">
+                        <div class="plan-header bg-light">
+                            <h3 class="fw-bold">Plano Básico</h3>
+                            <div class="price-tag my-3">60.000 AOA</div>
+                            <p class="text-muted">por mês</p>
+                        </div>
+                        <div class="card-body">
+                            <ul class="feature-list list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i> Manutenção mensal</li>
+                                <li><i class="fas fa-check text-success me-2"></i> Limpeza profunda</li>
+                                <li><i class="fas fa-check text-success me-2"></i> Pequenos reparos</li>
+                                <li class="text-muted"><i class="fas fa-times text-danger me-2"></i> Tratamentos especiais</li>
+                                <li class="text-muted"><i class="fas fa-times text-danger me-2"></i> Substituição anual</li>
+                                <li class="text-muted"><i class="fas fa-times text-danger me-2"></i> Atendimento prioritário</li>
+                                <li><i class="fas fa-check text-success me-2"></i> 5% de desconto em produtos</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-white p-4 text-center">
+                            <a href="https://wa.me/244957248136?text=Olá,%20tenho%20interesse%20no%20Plano%20Básico%20de%20Assinatura%20Mensal%20por%2060.000%20AOA." class="btn btn-outline-primary btn-lg w-100">Contratar Agora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Plano Premium -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card plan-card h-100 border-primary shadow">
+                        <div class="ribbon position-absolute end-0 top-0 me-3 mt-3">
+                            <span class="badge bg-warning text-dark">Mais Popular</span>
+                        </div>
+                        <div class="plan-header bg-premium text-white">
+                            <h3 class="fw-bold">Plano Premium</h3>
+                            <div class="price-tag my-3">120.000 AOA</div>
+                            <p class="text-white-50">por mês</p>
+                        </div>
+                        <div class="card-body">
+                            <ul class="feature-list list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i> Manutenção quinzenal</li>
+                                <li><i class="fas fa-check text-success me-2"></i> Limpeza profunda especializada</li>
+                                <li><i class="fas fa-check text-success me-2"></i> Reparos completos</li>
+                                <li><i class="fas fa-check text-success me-2"></i> Tratamentos revitalizantes</li>
+                                <li class="text-muted"><i class="fas fa-times text-danger me-2"></i> Substituição anual</li>
+                                <li><i class="fas fa-check text-success me-2"></i> Atendimento prioritário</li>
+                                <li><i class="fas fa-check text-success me-2"></i> 15% de desconto em produtos</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-white p-4 text-center">
+                            <a href="https://wa.me/244957248136?text=Olá,%20tenho%20interesse%20no%20Plano%20Premium%20de%20Assinatura%20Mensal%20por%20120.000%20AOA." class="btn btn-primary btn-lg w-100">Contratar Agora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Plano VIP -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card plan-card h-100">
+                        <div class="plan-header bg-light">
+                            <h3 class="fw-bold">Plano VIP</h3>
+                            <div class="price-tag my-3">200.000 AOA</div>
+                            <p class="text-muted">por mês</p>
+                        </div>
+                        <div class="card-body">
+                            <ul class="feature-list list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i> Manutenção semanal</li>
+                                <li><i class="fas fa-check text-success me-2"></i> Limpeza profunda premium</li>
+                                <li><i class="fas fa-check text-success me-2"></i> Reparos prioritários</li>
+                                <li><i class="fas fa-check text-success me-2"></i> Tratamentos exclusivos</li>
+                                <li><i class="fas fa-check text-success me-2"></i> Substituição anual garantida</li>
+                                <li><i class="fas fa-check text-success me-2"></i> Atendimento VIP</li>
+                                <li><i class="fas fa-check text-success me-2"></i> 25% de desconto em produtos</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-white p-4 text-center">
+                            <a href="https://wa.me/244957248136?text=Olá,%20tenho%20interesse%20no%20Plano%20VIP%20de%20Assinatura%20Mensal%20por%20200.000%20AOA." class="btn btn-outline-primary btn-lg w-100">Contratar Agora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5 p-4 bg-light rounded">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h4 class="text-brown">Ainda com dúvidas sobre qual plano escolher?</h4>
+                        <p class="mb-md-0">Nossos especialistas podem ajudar você a encontrar a melhor opção para suas necessidades.</p>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-center justify-content-md-end mt-3 mt-md-0">
+                        <a href="https://wa.me/244957248136?text=Olá,%20gostaria%20de%20ajuda%20para%20escolher%20o%20plano%20de%20assinatura%20ideal%20para%20mim." class="btn btn-brown btn-lg">
+                            <i class="fab fa-whatsapp me-2"></i>Consulta Gratuita
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits of Subscription -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center text-brown mb-5">Benefícios da Assinatura</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="rounded-circle bg-primary bg-opacity-10 p-3 d-inline-flex mb-3">
+                                <i class="fas fa-clock fa-2x text-primary"></i>
+                            </div>
+                            <h4>Economia de Tempo</h4>
+                            <p>Deixe os cuidados com sua peruca conosco e economize tempo com manutenções regulares.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3">
+                                <i class="fas fa-money-bill-wave fa-2x text-success"></i>
+                            </div>
+                            <h4>Economia Financeira</h4>
+                            <p>Assinantes recebem descontos exclusivos em produtos e serviços adicionais.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="rounded-circle bg-warning bg-opacity-10 p-3 d-inline-flex mb-3">
+                                <i class="fas fa-star fa-2x text-warning"></i>
+                            </div>
+                            <h4>Qualidade Superior</h4>
+                            <p>Sua peruca sempre impecável com tratamentos profissionais regulares.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="text-center text-brown mb-5">Perguntas Frequentes</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="accordionFAQ">
+                        <div class="accordion-item mb-3 border rounded shadow-sm">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Como funciona o serviço de manutenção?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
+                                <div class="accordion-body">
+                                    Dependendo do seu plano escolhido, você pode trazer sua peruca para manutenção semanalmente, quinzenalmente ou mensalmente. Nossa equipe realizará limpeza, reparos necessários e tratamentos para manter sua peruca sempre em perfeito estado.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3 border rounded shadow-sm">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Posso cancelar minha assinatura a qualquer momento?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
+                                <div class="accordion-body">
+                                    Nossos planos têm fidelidade mínima de 3 meses. Após esse período, você pode cancelar ou alterar seu plano com um aviso prévio de 30 dias.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3 border rounded shadow-sm">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    O que inclui a substituição anual?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFAQ">
+                                <div class="accordion-body">
+                                    No plano VIP, você tem direito a uma substituição anual da sua peruca por um modelo similar ou com desconto para upgrade. Isso garante que você sempre tenha uma peruca em perfeito estado.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border rounded shadow-sm">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Como são feitos os pagamentos?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionFAQ">
+                                <div class="accordion-body">
+                                    Os pagamentos são mensais e podem ser feitos via transferência bancária, pagamento em dinheiro na loja ou através de aplicativos de pagamento móvel. Oferecemos também a opção de pagamento trimestral com 5% de desconto.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="card border-0 bg-brown text-white shadow-lg">
+                        <div class="card-body py-5 px-md-5 text-center">
+                            <h2 class="fw-bold mb-4">Pronto para garantir o melhor cuidado para sua peruca?</h2>
+                            <p class="lead mb-4">Escolha o plano ideal e comece a desfrutar de todos os benefícios hoje mesmo.</p>
+                            <a href="#planos" class="btn btn-light btn-lg px-5 me-md-3 mb-3 mb-md-0">Ver Planos</a>
+                            <a href="https://wa.me/244957248136?text=Olá,%20gostaria%20de%20marcar%20uma%20visita%20para%20conhecer%20mais%20sobre%20os%20planos%20de%20assinatura." class="btn btn-outline-light btn-lg px-5">
+                                <i class="fab fa-whatsapp me-2"></i>Agendar Visita
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer - Mesmo código do site principal -->
+    <footer class="bg-gradient-to-r from-purple-900 to-purple-700 text-white py-8">
+        <div class="container mx-auto px-4">
+            <!-- Seção Principal -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-6">
+                <!-- Coluna 1: Sobre -->
+                <div>
+                    <h5 class="text-xl font-bold mb-4">Estiloqui Perucas</h5>
+                    <p class="mb-4">Estilo que acompanha você em todos os momentos, realçando sua beleza natural com qualidade e confiança.</p>
+                    <div class="flex space-x-4 mt-4">
+                        <a href="https://www.facebook.com/profile.php?id=100067676614893" class="hover:text-purple-200 transition-colors">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                        <a href="https://www.instagram.com/estiloguiperucas" class="hover:text-purple-200 transition-colors">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@estiloguilerucas" class="hover:text-purple-200 transition-colors">
+                            <i class="fab fa-tiktok text-xl"></i>
+                        </a>
+                        <a href="https://wa.me/244957248136" class="hover:text-purple-200 transition-colors">
+                            <i class="fab fa-whatsapp text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Coluna 2: Links Rápidos -->
+                <div>
+                    <h5 class="text-xl font-bold mb-4">Links Rápidos</h5>
+                    <ul class="space-y-2">
+                        <li><a href="#products" class="hover:text-purple-200 transition-colors">Nossos Produtos</a></li>
+                        <li><a href="#cuidadoPerucas" class="hover:text-purple-200 transition-colors">Cuidados com Perucas</a></li>
+                        <li><a href="#Clientes" class="hover:text-purple-200 transition-colors">O que os nossos clientes dizem</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Coluna 3: Contato -->
+                <div>
+                    <h5 class="text-xl font-bold mb-4">Contato</h5>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-2"></i>
+                            <span>(+244) 957 248 136</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>estiloguiperucas@gmail.com</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            <span>Luanda, Angola</span>
+                        </li>
+                    </ul>
+                    <div class="mt-4">
+                        <p class="text-sm font-medium mb-2">Horário de Atendimento:</p>
+                        <p class="text-sm">Segunda a sexta: 8h às 18h</p>
+                    </div>
+                </div>
+                
+                <!-- Coluna 4: Newsletter -->
+                <div>
+                    <h5 class="text-xl font-bold mb-4">Newsletter</h5>
+                    <p class="mb-4">Receba novidades, promoções e dicas exclusivas sobre cuidados com perucas.</p>
+                    <div class="flex mt-2">
+                        <input type="email" placeholder="Seu e-mail" class="px-4 py-2 w-full rounded-l text-gray-800 focus:outline-none">
+                        <button class="bg-purple-500 hover:bg-purple-600 px-4 py-2 rounded-r transition-colors">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Métodos de Pagamento -->
+            <div class="border-t border-purple-600 pt-6 pb-4">
+                <div class="flex flex-wrap justify-center space-x-4">
+                    <span class="text-sm font-medium">Métodos de Pagamento:</span>
+                    <i class="fas fa-money-bill-wave text-2xl"></i>
+                    <i class="fas fa-credit-card text-2xl"></i>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="text-center text-sm mt-6">
+                <p>&copy; 2025 Estiloqui Perucas. Todos os direitos reservados.</p>
+                <p class="mt-2">Desenvolvido com <i class="fas fa-heart text-white-500"></i> para valorizar sua beleza</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/244957248136" class="whatsapp-float">
+        <img src="image/Perfil/Contactos.jpg" width="20" alt="WhatsApp" class="rounded-circle shadow">
+    </a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
